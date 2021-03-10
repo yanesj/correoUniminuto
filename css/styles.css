@@ -127,7 +127,7 @@ hr {
 }
 .text-left4 {
   text-align: left !important;
-  padding: 14% 4% 0% 22%;
+  padding: 14% 23% 14% 23%;
 }
 .text-center1 {
   text-align: center;
@@ -585,7 +585,10 @@ mark,
   font-size: 90%;
   color: #6c757d;
 }
-
+.btn-primary2 {
+  padding: 3% 30% 3% 30%;
+  color: red !important;
+}
 code {
   font-size: 87.5%;
   color: #e83e8c;
@@ -2021,7 +2024,7 @@ hr {
 
 @media (max-width: 575.98px) {
     .btn {
-    padding: 0.55rem 5rem !important;
+    /*padding: 0.55rem 5rem !important;*/
   }
   .table-responsive-sm {
     display: block;
@@ -2078,9 +2081,10 @@ hr {
 
 .form-control {
   display: block;
-  width: 80%;
+  width: 90%;
   height: calc(1.5em + 0.75rem + 2px);
-  padding: 0.375rem 0.75rem;
+  /*padding: 0.375rem 0.75rem;*/
+  padding: 3% 22% 3% 22%;
   font-size: 13.5px;
   font-weight: 400;
   line-height: 1.5;
@@ -2519,7 +2523,7 @@ textarea.form-control {
           user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 0.55rem 7.3rem;
+  padding: 0.55rem 0rem;
   font-size: 13px;
   line-height: 1.5;
   border-radius: 1.2rem;
@@ -2555,9 +2559,10 @@ fieldset:disabled a.btn {
   border-color: #0260ad;
 }
 .btn-primary2 {
-  color: #fff;
+  color: #fff !important;
   background-color: #ffce00;
   border-color: #ffce00;
+  padding: 3% 20% 3% 20%;
 }
 .btn-primary:hover {
   color: #0260ad !important;
@@ -10343,7 +10348,7 @@ header.masthead2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("../assets/img/1.png");
+  background-image: url("../assets/img/2.jpeg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10353,39 +10358,30 @@ header.masthead2 {
   padding-bottom: 12rem;
 }
 
-/*header.masthead3 {
-  color: #fff;
-  font-size: 1.7rem;
-  font-weight: 700;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../assets/img/2.jpeg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  text-align: center;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
-}*/
-
-
+.form-control {
+  width: 75%;
+}
 header.masthead3 {
-  color: #fff;
-  font-size: 2.5rem;
-  font-weight: 700;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../assets/img/1.png");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  text-align: center;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
+  padding-top: 13rem;
+    padding-bottom: 13rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/1.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+header.masthead5 {
+  padding-top: 13rem;
+    padding-bottom: 13rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
 header.masthead4 {
   color: #fff;
@@ -10416,14 +10412,25 @@ header.masthead .masthead-subheading {
   font-size: 0.47rem;
   font-style: normal;
   line-height: 0.8rem;
-  margin-bottom: 0px;xxxx
+  margin-bottom: 0px;
 }
-
+header.masthead3, header.masthead5 .masthead-subheading {
+  font-size: 3rem;
+  font-style: normal;
+  line-height: 3rem;
+  margin-bottom: 0px;
+}
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12.5rem;
     padding-bottom: 12.5rem;
   }
+  .btn-primary2 {
+  color: #fff !important;
+  background-color: #ffce00;
+  border-color: #ffce00;
+  padding: 3% 30% 3% 30%;
+}
   header.masthead2 {
     color: rgba(255,255,255,1);
     font-size: 69px;
@@ -10436,11 +10443,21 @@ header.masthead .masthead-subheading {
     padding-top: 19rem;
     padding-bottom: 19rem;
   }
+  .form-control {
+    width: 80%;
+  }
   header.masthead .masthead-subheading {
     font-size: 1.13rem;
     font-style: normal;
     font-weight: 600;
     line-height: 1.25rem;
+    margin-bottom: 0rem;
+  }
+  header.masthead3, header.masthead5, .masthead-subheading {
+    font-size: 4.15rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 4.25rem;
     margin-bottom: 0rem;
   }
   header.masthead .masthead-heading {
@@ -10632,6 +10649,9 @@ header.masthead .masthead-subheading {
 .timeline .timeline-body > p {
   margin-bottom: 0;
 }
+  .btn {
+    /*padding: 0.55rem 3rem !important;*/
+  }
 
 @media (min-width: 768px) {
   .timeline:before {

@@ -28,7 +28,7 @@
                                 <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#tucorreo">TU CORREO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#faqs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#contacto">CONTACTO</a>
@@ -52,28 +52,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="row border border-dark border-right-0 border-left-0">
-                        <div class="col-md-6">
-                            <div class="text-center2 fondoamarillo subtitulo2">
-                                Consulta tu correo
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="text-center1 subtitulo2">
-                                Consulta tu anterior correo
-                            </div>
+                <div class="row border border-dark border-right-0 border-left-0 border-bottom-0">
+                    <div class="col-md-6">
+                        <div class="text-center2 fondoamarillo subtitulo2">
+                            Consulta tu correo
                         </div>
                     </div>
-                    <div class="row border border-dark border-right-0 border-left-0 border-top-0">
-                        <div class="col-md-6">
-                            <div class="text-center1 subtitulo2">
-                                Acceso apps Office 365
-                            </div>
+                    <div class="col-md-6">
+                        <div class="text-center1 subtitulo2">
+                            Consulta tu anterior correo
                         </div>
-                        <div class="col-md-6">
-                            <div class="text-left3 fondoamarillo">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </div>
+                    </div>
+                </div>
+                <div class="row border border-dark border-right-0 border-left-0  border-top-0">
+                    <div class="col-md-6">
+                        <div class="text-center1 subtitulo2">
+                            Acceso apps Office 365
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-left3 fondoamarillo">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </div>
                     </div>
                 </div>
@@ -81,39 +80,16 @@
         </section>
         <!-- 1 -->
 
+        <!-- 2 pdf -->
         <section class="page-section" id="inicio">
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-                <div class="container">
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars ml-1"></i>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav text-uppercase ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#inicio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INICIO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#tucorreo">TU CORREO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#contacto">CONTACTO</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-            <!-- 2 pdf -->
-            <header class="masthead3">
+            <header class="masthead2">
                 <div class="container">
                     <img class="img-fluid2" src="assets/img/logo1.png" />
                 </div>
             </header>
 
-            <div class="container">
-                <div class="row border border-dark border-right-0 border-left-0">
+            <div class="container border border-dark border-right-0 border-left-0 border-bottom-0">
+                <div class="">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="text-left3 fondoamarillo">
@@ -127,13 +103,13 @@
                                         <label for="exampleInputEmail1" class="subtitulo1">Consulta tu correo</label>
                                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ID Uniminuto">
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn 2 btn-primary2">CONSULTAR</button>
+                                    <button type="submit" class="btn btn-primary btn2 btn-primary2">CONSULTAR</button>
                                 </form>
                             </div>
                         </div>
                     </div>
                     <div class="container">
-                        <div class="row border border-dark border-right-0 border-left-0">
+                        <div class="row border border-dark border-right-0 border-left-0 border-bottom-0">
                             <div class="col-md-12">
                                 <div class="text-center">
                                     <div class="subtitulo1"><br><br><br><br>
@@ -143,17 +119,27 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="text-center1">
-                                Acceso apps Office 365
-                            </div>
+                    <div class="">
+                <div class="row border border-dark border-right-0 border-left-0 border-bottom-0">
+                    <div class="col-md-6">
+                        <div class="text-center2 fondoamarillo subtitulo2">
                         </div>
-                        <div class="col-md-6">
-                            <div class="text-left3 fondoamarillo">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-center1 subtitulo2">
                         </div>
+                    </div>
+                </div>
+                <div class="row border border-dark border-right-0 border-left-0  border-top-0">
+                    <div class="col-md-6">
+                        <div class="text-center1 subtitulo2">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-center2 fondoamarillo">
+                        </div>
+                    </div>
+                </div>
                     </div>
                 </div>
             </div>
@@ -208,11 +194,11 @@
         <section class="page-section" id="tucorreo">
             <!-- SubMasthead -->
             <header class="masthead3">
-                <div class="masthead-subheading">Conoce más sobre el<br>cambio de buzón de<br>correo</div>
+                <div class="masthead-subheading">Conoce más sobre el <br>cambio de buzón de <br>correo</div>
             </header>
         </section>
 
-        <section class="page-section" id="">
+        <section class="page-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 order-1 order-sm-1">
@@ -327,6 +313,136 @@
                             <div class="container">
                                 <div class="text-left2">
                                     <h2 class="section-heading">¿Dónde puedo resolver<br>dudas o inconvenientes<br>sobre el nuevo servicio?</h2><br>
+                                    <h3 class="section-subheading">Recuerda que las Mesas de Servicio  Tecnológico están dispuestas a orientarte y solucionar inconvenientes que se te presenten.</h3><br>
+                                    <button type="button" class="btn btn-light">Mesas de Servicio Tecnológico</button><br><br>
+                                    <h3 class="section-subheading">Si tienes problemas con tu usuario o contraseña institucional, marca a la línea telefónica de tu sede o la línea nacional 01 8000 119 390 y digita la <b>EXT. 6622</b>, y un agente de servicio tecnológico te atenderá.</h3>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-md-6 order-11 order-sm-12">
+                        <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- preguntas frecuentes, 2 prototipo -->
+        <section class="page-section" id="tucorreo">
+            <!-- SubMasthead -->
+            <header class="masthead5">
+                <div class="masthead-subheading">Preguntas frecuentes sobre <br>el cambio de servicio de <br>correo</div>
+            </header>
+        </section>
+
+        <section class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 order-1 order-sm-1">
+                        <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.png" />
+                    </div>
+                    <div class="col-md-6 order-2 order-sm-2">
+                        <section class="page-section">
+                            <div class="container">
+                                <div class="text-left">
+                                    <h2 class="section-heading">¿Qué pasa con los correos actuales que hay en Gmail?</h2><br>
+                                    <h3 class="section-subheading">Todos tus correos permanecerán guardados en tu antiguo buzón de correo Gmail para que los puedas seguir consultando. Tu nuevo servicio de correo Outlook iniciará desde 0.</h3><br>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 order-4 order-sm-3">
+                        <section class="page-section">
+                            <div class="container">
+                                <div class="text-left">
+                                    <h2 class="section-heading">¿Qué pasa con los contactos y agendas que tengo en Gmail?</h2><br>
+                                    <h3 class="section-subheading">Podrás consultarlos ingresando a tu antiguo correo de Gmail.</h3>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-md-6 order-3 order-sm-4">
+                        <img class="img-fluid" src="assets/img/portfolio/07-thumbnail.jpg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 order-5 order-sm-5">
+                        <img class="img-fluid" src="assets/img/portfolio/08-thumbnail.jpg" />
+                    </div>
+                    <div class="col-md-6 order-6 order-sm-6">
+                        <section class="page-section">
+                            <div class="container">
+                                <div class="text-left">
+                                    <h2 class="section-heading">¿Puedo seguir enviando correos electrónicos desde Gmail?</h2><br>
+                                    <h3 class="section-subheading">Por definir</h3><br>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 order-8 order-sm-7">
+                        <section class="page-section">
+                            <div class="container">
+                                <div class="text-left">
+                                    <h2 class="section-heading">¿Puedo seguir recibiendo correos electrónicos desde Gmail?</h2><br>
+                                    <h3 class="section-subheading">No, a partir del cambio, todos tus nuevos mensajes serán recibidos a través del nuevo servicio de buzón de correo electrónico Outlook.</h3>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-md-6 order-7 order-sm-8">
+                        <img class="img-fluid" src="assets/img/portfolio/09-thumbnail.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 order-9 order-sm-9">
+                        <img class="img-fluid" src="assets/img/portfolio/10-thumbnail.jpg" />
+                    </div>
+                    <div class="col-md-6 order-10 order-sm-10">
+                        <section class="page-section">
+                            <div class="container">
+                                <div class="text-left">
+                                    <h2 class="section-heading">¿Puedo seguir utilizando las demás apps de G-suite?</h2><br>
+                                    <h3 class="section-subheading">Sí, podrás seguir accediendo a las apps con tu usuario para continuar con tus procesos de formación académica.</h3><br>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="">
+            <div class="container">
+                <div class="row" style="">
+                    <div class="col-md-6 order-12 order-sm-11">
+                        <section class="page-section">
+                            <div class="container">
+                                <div class="text-left2">
+                                    <h2 class="section-heading">¿Dónde puedo resolver dudas o inconvenientes sobre el nuevo servicio?</h2><br>
                                     <h3 class="section-subheading">Recuerda que las Mesas de Servicio  Tecnológico están dispuestas a orientarte y solucionar inconvenientes que se te presenten.</h3><br>
                                     <button type="button" class="btn btn-light">Mesas de Servicio Tecnológico</button><br><br>
                                     <h3 class="section-subheading">Si tienes problemas con tu usuario o contraseña institucional, marca a la línea telefónica de tu sede o la línea nacional 01 8000 119 390 y digita la <b>EXT. 6622</b>, y un agente de servicio tecnológico te atenderá.</h3>
