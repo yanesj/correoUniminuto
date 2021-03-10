@@ -28,7 +28,7 @@
                                 <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#tucorreo">TU CORREO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#faqs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#contacto">CONTACTO</a>
@@ -95,7 +95,7 @@
                                 <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#tucorreo">TU CORREO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#faqs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link js-scroll-trigger btn btn-primary btn-xs a" href="#contacto">CONTACTO</a>
@@ -212,7 +212,7 @@
             </header>
         </section>
 
-        <section class="page-section" id="faqs">
+        <section class="page-section" id="">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 order-1 order-sm-1">
